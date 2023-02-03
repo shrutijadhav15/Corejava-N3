@@ -34,15 +34,15 @@ public class OperatorDemo {
 		System.out.println(res4);
 		
 		//bitwise operator
-		int a=12& b=5;
+		int a=12, b=5;
 		int c=12^5;
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 		
 		//ternary operator
-		String res=(13%2==0)?"Even":"Odd";
-		System.out.println(res);
+		String res1=(13%2==0)?"Even":"Odd";
+		System.out.println(res1);
 		
 		//increment and decrement
 		int p=x++;
